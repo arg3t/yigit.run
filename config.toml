@@ -1,7 +1,7 @@
 baseURL = "http://fr1nge.xyz/"
 languageCode = "en-us"
-theme = "after-dark"
-title = "Fr1nge's Blog on Linux & Software Development"
+theme = "terminal"
+title = "Fr1nge's Personal Blog"
 
 [params]
   contentTypeName = "posts"
