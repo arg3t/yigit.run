@@ -11,9 +11,3 @@ steps:
   settings:
     url: https://fr1nge.xyz
     validate: false
-
-- name: deploy
-  commands:
-  - pwd
-  - ls
-
