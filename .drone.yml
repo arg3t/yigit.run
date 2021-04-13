@@ -1,18 +1,11 @@
-kind: pipeline
-name: default
-
-platform:
-  os: linux
-  arch: amd64
-
-steps:
-- name: build
-  image: plugins/hugo
-  settings:
+pipeline:
+  build:
+    image: cbrgm/drone-hugo:latest
+    validate: true
     url: https://fr1nge.xyz
-    validate: false
-- name: deploy
-  image: drillster/drone-rsync
-  hosts: [ "rsync.yigitcolakoglu.com", "rsync" ]
-  source: public/*
-  target: /volume/fr1nge.xyz
+
+  deploy:
+    image: drillster/drone-rsync
+    hosts: [ "rsync" ]
+    target: /volume/fr1nge.xyz
+    source: public/*
