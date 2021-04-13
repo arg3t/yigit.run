@@ -6,7 +6,8 @@ pipeline:
 
   deploy:
     image: drillster/drone-rsync
-    hosts: [ "rsync" ]
+    hosts: [ "192.168.1.5" ]
+    port: 3471
     target: /volume/fr1nge.xyz
     source: public/*
     key:
