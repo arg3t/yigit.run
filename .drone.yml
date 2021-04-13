@@ -1,7 +1,7 @@
 pipeline:
   build:
     image: cbrgm/drone-hugo:latest
-    validate: true
+    validate: false
     url: https://fr1nge.xyz
 
   deploy:
