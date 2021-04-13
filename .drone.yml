@@ -11,8 +11,7 @@ steps:
   settings:
     url: https://fr1nge.xyz
     validate: false
-- name: greeting
-  image: node
   commands:
   - pwd
   - ls
+  - cp -r public/* /data
