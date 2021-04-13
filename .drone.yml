@@ -1,13 +1,11 @@
-pipeline:
-  build:
-    image: cbrgm/drone-hugo:latest
-    validate: true
-    url: https://fr1nge.xyz
+kind: pipeline
+name: default
 
-  deploy:
-    image: drillster/drone-rsync
-    hosts: [ "fr1nge.xyz" ]
-    target: /var/www/fr1nge.xyz
-    source: public/*
-    user: hugo
-    secrets: [ rsync_key ]
+steps:
+- name: build
+  image: plugins/hugo
+  settings:
+    hugo_version: 0.55
+    pull: always
+    url: https://fr1nge.xyz
+    validate: true
