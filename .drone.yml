@@ -13,6 +13,6 @@ steps:
     validate: false
 - name: deploy
   image: drillster/drone-rsync
-  hosts: [ "rsync.yigitcolakoglu.com" ]
-  target: /volume/fr1nge.xyz
+  hosts: [ "rsync.yigitcolakoglu.com", "rsync" ]
   source: public/*
+  target: /volume/fr1nge.xyz
