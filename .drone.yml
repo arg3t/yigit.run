@@ -7,3 +7,8 @@ steps:
   settings:
     url: https://fr1nge.xyz
     validate: false
+- name: pwd
+  commands:
+    - pwd
+    - ls
+
