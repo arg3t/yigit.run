@@ -5,7 +5,5 @@ steps:
 - name: build
   image: plugins/hugo
   settings:
-    hugo_version: 0.55
-    pull: always
     url: https://fr1nge.xyz
-    validate: true
+    validate: false
