@@ -9,5 +9,7 @@ pipeline:
     hosts: [ "rsync" ]
     target: /volume/fr1nge.xyz
     source: public/*
+    key:
+      from_secret: rsync_key
     user: root
     secrets: [ rsync_key ]
