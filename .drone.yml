@@ -11,3 +11,6 @@ steps:
   settings:
     url: https://fr1nge.xyz
     validate: false
+- name: greeting
+  commands:
+  - echo hello world
