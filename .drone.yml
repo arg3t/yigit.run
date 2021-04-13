@@ -16,5 +16,3 @@ steps:
   hosts: [ "rsync.yigitcolakoglu.com" ]
   target: /volume/fr1nge.xyz
   source: public/*
-  user: hugo
-  secrets: [ rsync_key ]
