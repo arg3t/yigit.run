@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: cbrgm/drone-hugo:latest
+    image: plugins/hugo
     validate: false
     url: https://fr1nge.xyz
 
