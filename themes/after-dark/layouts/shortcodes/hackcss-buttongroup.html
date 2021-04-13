@@ -1,23 +1,32 @@
-{{/*
-Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+<!-- {{/*
+Basic usage:
+{{< hackcss-buttongroup >}}
+  {{< hackcss-button text="Left" />}}
+  {{< hackcss-button text="Middle" type="info" />}}
+  {{< hackcss-button text="Right" isghost="true" />}}
+{{< /hackcss-buttongroup >}}
 
-This file is part of After Dark.
+{{< hackcss-buttongroup >}}
+  {{< hackcss-button text="Left" action="/go/somewhere" />}}
+{{< /hackcss-buttongroup >}}
 
-After Dark is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Advanced usage:
+{{< hackcss-buttongroup action="/go/somewhere" method="post" >}}
+  {{< hackcss-button text="Left" target="_self" />}}
+  {{< hackcss-button text="Right" isghost="true" />}}
+{{< /hackcss-buttongroup >}}
 
-After Dark is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
+{{< hackcss-buttongroup action="/do/something" target="_blank" >}}
+  <input type="hidden" name="AssociateTag" value="jhabdas-20">
+  <input type="hidden" name="ASIN.1" value="B0736PV196">
+  <input type="hidden" name="Quantity.1" value="2">
+  {{< hackcss-button text="Print" action="javascript:window.print()" />}}
+  {{< hackcss-button text="Purchase" isghost="true" />}}
+{{< /hackcss-buttongroup >}}
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*/ -}}
-
-{{ $formactions := .Get "formactions" }}
-{{ $class := .Get "class" }}
-{{ $body := .Inner }}
-{{ partial "components/buttongroup.html" (dict "formactions" $formactions "class" $class "body" $body) }}
+*/}} -->
+{{ $action := .Get "action" }}
+{{ $target := .Get "target" }}
+{{ $method := .Get "method" }}
+{{ $body := .Get "body" | default .Inner }}
+{{ partial "components/buttongroup.html" (dict "action" $action "target" $target "method" $method "body" $body)}}

@@ -1,22 +1,16 @@
-{{/*
-Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+<!-- {{/*
+Basic usage:
+{{< hackcss-card header="title" text="Lorem ipsum dolor sit amet">}}
+{{% hackcss-card header="Bacon Ipsum" %}}
+  _Flank **pancetta** beef tri-tip frankfurter chuck._
+{{% /hackcss-card %}}
 
-This file is part of After Dark.
-
-After Dark is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-After Dark is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*/}}
-
+Advanced usage:
+{{< hackcss-card header="SUX 3000 (2 left in stock)" >}}
+  <p>Available now for a limited time at the low price of just $1,000,000.</p>
+  {{< hackcss-button type="success" text="Buy Now" isblock="true" />}}
+{{< /hackcss-card >}}
+*/}} -->
 {{ $header := .Get "header" }}
 {{ $body := .Get "text" | default .Inner }}
-{{ partial "components/card.html" (dict "header" $header "body" $body) }}
+{{ partial "components/card.html" (dict "header" $header "body" $body)}}

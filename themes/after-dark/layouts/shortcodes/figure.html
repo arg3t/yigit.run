@@ -1,22 +1,12 @@
-{{/*
-Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+<!--{{/*
+Like the Hugo built-in, but easier to grok with Lazy Loading and LQIP support.
 
-This file is part of After Dark.
+Basic usage:
+{{< figure src="https://i.supload.com/r1gXlwuXiZ.png" link="https://supload.com/r1gXlwuXiZ" caption="Ethereum value explosion in 2017. You do the math." >}}
 
-After Dark is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-After Dark is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*/ -}}
-
+Internal usage reference:
+https://gohugo.io/content-management/shortcodes/#figure
+*/}}-->
 {{ $src := .Get "src" }}
 {{ $lqipsrc := .Get "lqipsrc" }}
 {{ $caption := .Get "caption" }}
@@ -27,4 +17,23 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 {{ $alt := .Get "alt" }}
 {{ $title := .Get "title" }}
 {{ $class := .Get "class" }}
-{{ partial "components/figure.html" (dict "src" $src "lqipsrc" $lqipsrc "caption" $caption "link" $link "linktarget" $linktarget "attr" $attr "attrlink" $attrlink "alt" $alt "title" $title "class" $class) }}
+<figure{{ with $class }} class="{{ . }}"{{ end }}>
+  {{ with $link }}<a href="{{ . }}"{{ if $linktarget }} target="{{ $linktarget }}"{{ end }}{{ if eq $linktarget "_blank" }} rel="external noopener noreferrer"{{ end }}>{{ end }}
+    {{ if $lqipsrc }}
+      <img class="lazyload blur-up" src="{{ $lqipsrc }}" data-src="{{ $src }}" {{ if or $alt $caption }}alt="{{ with $alt }}{{ . }}{{ else }}{{ $caption }}{{ end }}"{{ end }} />
+    {{ else }}
+      <img class="lazyload" data-src="{{ $src }}" {{ if or $alt $caption }}alt="{{ with $alt }}{{ . }}{{ else }}{{ $caption }}{{ end }}"{{ end }} />
+    {{ end }}
+  {{ if $link }}</a>{{ end }}
+  {{ if or (or $title $caption) $attr }}
+  <figcaption>{{ if isset .Params "title" }}
+    <header><b>{{ $title }}</b></header>{{ end }}
+    {{ if or $caption $attr }}
+    <small>{{ $caption }}
+    {{ with $attrlink }}<a href="{{ . }}"> {{ end }}
+      {{ $attr }}
+    {{ if $attrlink }}</a> {{ end }}
+    </small>{{ end }}
+  </figcaption>
+  {{ end }}
+</figure>

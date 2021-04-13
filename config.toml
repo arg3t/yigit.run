@@ -1,5 +1,55 @@
 baseURL = "http://fr1nge.xyz/"
 languageCode = "en-us"
 theme = "after-dark"
-title = "Fr1nge's Personal Site"
+title = "Fr1nge's Blog on Linux & Software Development"
 
+[params]
+  contentTypeName = "posts"
+
+  themeColor = "blue"
+
+  showMenuItems = 2
+
+  showLanguageSelector = false
+
+  fullWidthTheme = false
+
+  centerTheme = true
+  # favicon = "favicon.ico"
+
+  showLastUpdated =  true
+  enableGitInfo = true
+
+[params.twitter]
+  creator = "theFr1nge"
+  site = "yigitcolakoglu.com"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Fr1nge's Personal Blog"
+    subtitle = "Yigit Colakoglu aka. Fr1nge's Personal Blog"
+    owner = "Yigit Colakoglu"
+    keywords = "Tech, Linux, Programming, Security"
+    copyright = "Yigit Colakoglu"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "fr1nge.xyz"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
