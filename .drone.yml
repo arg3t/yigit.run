@@ -12,5 +12,6 @@ steps:
     url: https://fr1nge.xyz
     validate: false
 - name: greeting
+  image: node
   commands:
   - echo hello world
