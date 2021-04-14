@@ -2,9 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://fr1nge.xyz/categories/</loc>
-  </url><url>
     <loc>http://fr1nge.xyz/</loc>
+    <lastmod>2021-04-13T23:26:07+03:00</lastmod>
+  </url><url>
+    <loc>http://fr1nge.xyz/posts/</loc>
+    <lastmod>2021-04-13T23:26:07+03:00</lastmod>
+  </url><url>
+    <loc>http://fr1nge.xyz/posts/test/</loc>
+    <lastmod>2021-04-13T23:26:07+03:00</lastmod>
+  </url><url>
+    <loc>http://fr1nge.xyz/awards/</loc>
+  </url><url>
+    <loc>http://fr1nge.xyz/projects/</loc>
+  </url><url>
+    <loc>http://fr1nge.xyz/about/</loc>
+  </url><url>
+    <loc>http://fr1nge.xyz/categories/</loc>
   </url><url>
     <loc>http://fr1nge.xyz/tags/</loc>
   </url>
