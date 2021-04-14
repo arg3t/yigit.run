@@ -8,7 +8,7 @@ title = "Fr1nge's Personal Blog"
 
   themeColor = "blue"
 
-  showMenuItems = 2
+  showMenuItems = 4
 
   showLanguageSelector = false
 
@@ -50,9 +50,9 @@ title = "Fr1nge's Personal Blog"
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
       [[languages.en.menu.main]]
         identifier = "awards"
         name = "Awards & Certificates"
