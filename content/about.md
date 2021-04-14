@@ -1,7 +1,7 @@
 +++
 title = "About Me"
-description = ""
-draft = true
+description = "Who am I?"
+draft = false
 +++
 
 #### $ whoami
