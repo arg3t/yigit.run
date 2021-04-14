@@ -1,7 +1,7 @@
 +++
 title = "$ whoami"
 description = ""
-draft = true
+draft = false
 +++
 
 I am a senior student in Ted Ankara College Foundation High School. I dabble in
