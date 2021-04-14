@@ -1,28 +1,19 @@
 +++
-title = "About Me"
-description = ""
-draft = true
+title = "$ ls awards/ certificates/"
+description = "A list of awards and certificated that Yigit Colakoglu has"
+draft = false
 +++
 
-#### $ whoami
+### Awards
 
-I am a senior student in Ted Ankara College Foundation High School. I dabble in
-different areas of computer science every now and then and try to learn new stuff
-along the way. I love creating software for my personal use and for people around
-me. My favourite languages are Java and C, and I love self-hosting.
+* TUBITAK Regionals Second Place (2020)
+* [WRO International Tournament (2017)](https://www.tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2807-wro-dunya-robot-olimpiyatlari-nda-dunya-1-ligini-ulkemize-kazandirdik)
+* [First Lego League Best Programmer Award (2017-2018)](https://tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2329-first-lego-league-de-en-iyi-programlama-ve-yenilikci-cozum-odulleri-ted-ankara-koleji-nin)
+* [National WRO Tournament 2nd place (2018)](https://www.tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2718-dunya-robot-olimpiyatlari-nda-turkiye-yi-temsil-edecegiz)
 
-#### $ neofetch
+### Certificates
 
-**OS:** Artix Linux  
-**Shell:** zsh  
-**WM:** dwm  
-**Theme:** material-ocean  
-**Terminal:** st  
-
-#### $ ls interests/
-
-* Linux
-* Cybersecurity
-* Self Hosting
-* Ricing
-* Open Source
+* [Introduction to Artificial Intelligence with Python (HarvardX)](https://cs50.harvard.edu/certificates/6a424e94-390b-453f-b802-2cbba0cd22fe)
+* [Introduction to Computer Science and Programming Using Python (MITx)](https://courses.edx.org/certificates/7c99af73bf444a67a70eb1853e06092f)
+* [Data Structures and Software Design (PennX)](https://courses.edx.org/certificates/25eaaab3a06440999b3af955b67b217e)
+* [Statistical Thinking for Data Science and Analytics (ColumbiaX)](https://courses.edx.org/certificates/fc89b8f716314d37937bcc3f27ef3205)
