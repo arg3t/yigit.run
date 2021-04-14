@@ -1,7 +1,7 @@
 +++
 title = "$ ls projects/"
-description = ""
-draft = true
+description = "A list of projects made by Yigit Colakoglu"
+draft = false
 +++
 
 * [Metis](https://github.com/theFr1nge/Metis/): Metis is a web application that allows medical clinic owners to easily manage their appointments and their patients. It is primarily designed for use in Turkey, with several specific features. It is developed on the Spring Boot framework and uses MySQL and Redis as its data and session storage.
