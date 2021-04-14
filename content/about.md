@@ -1,7 +1,7 @@
 +++
 title = "$ whoami"
 description = ""
-draft = false
+draft = true
 +++
 
 I am a senior student in Ted Ankara College Foundation High School. I dabble in
@@ -18,15 +18,14 @@ me.
 * [**Github**](https://github.com/theFr1nge)
 * [**Twitter**](https://twitter.com/theFr1nge)
 * [**LinkedIn**](https://www.linkedin.com/in/yigitcolakoglu/)
-* [**RSS**](https://fr1nge.xyz/index.xml)
+* [**RSS**](/index.xml)
 
 #### Contact Me:
 
 * [**Telegram**](https://t.me/thefr1nge)
 * [**Discord**](https://discordapp.com/users/440823026523832322)
-* [**Email**](mail:yigitcolakoglu@hotmail.com) [*I also have a gpg key*](data/9D26FDA9E051205C4DC8422611D306C40EAEC301.asc)
+* [**Email**](mail:yigitcolakoglu@hotmail.com) [*I also have a gpg key*](/data/9D26FDA9E051205C4DC8422611D306C40EAEC301.asc)
 
 #### Want to learn more?
 
-You can find my resume right [*right here*](data/resume.pdf). Or you can hit 
-me up through social media, I am open to chat.
+You can find my resume [*right here*](/data/resume.pdf). Or you can hit me up through social media, I am open to chat.
