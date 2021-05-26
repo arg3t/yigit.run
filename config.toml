@@ -1,6 +1,7 @@
 baseURL = "http://fr1nge.xyz/"
 languageCode = "en-us"
 theme = "terminal"
+googleAnalytics = "G-JXGYSDK9HK"
 disqusShortname = "fr1nge-xyz"
 title = "Fr1nge's Personal Blog"
 
