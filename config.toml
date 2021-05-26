@@ -1,6 +1,7 @@
 baseURL = "http://fr1nge.xyz/"
 languageCode = "en-us"
 theme = "terminal"
+disqusShortname = "fr1nge-xyz"
 title = "Fr1nge's Personal Blog"
 
 [params]
