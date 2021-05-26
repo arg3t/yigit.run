@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fr1nge&#39;s Personal Blog</title>
-    <link>http://fr1nge.xyz/</link>
-    <description>Recent content on Fr1nge&#39;s Personal Blog</description>
+    <title>scripting on Fr1nge&#39;s Personal Blog</title>
+    <link>http://fr1nge.xyz/tags/scripting/</link>
+    <description>Recent content in scripting on Fr1nge&#39;s Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Yigit Colakoglu</copyright>
-    <lastBuildDate>Wed, 05 May 2021 17:08:12 +0300</lastBuildDate><atom:link href="http://fr1nge.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 17:08:12 +0300</lastBuildDate><atom:link href="http://fr1nge.xyz/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supercharge Your Bash Scripts with Multiprocessing</title>
       <link>http://fr1nge.xyz/posts/supercharge-your-bash-scripts-with-multiprocessing/</link>
@@ -336,85 +336,6 @@ job_pool_shutdown
 
 &lt;p&gt;Hopefully this article was(or will be) helpful to you. From now on, you don&amp;rsquo;t
 ever have to write single threaded bash scripts like normies :)&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>$ ls awards/ certificates/</title>
-      <link>http://fr1nge.xyz/awards/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fr1nge.xyz/awards/</guid>
-      <description>Awards  TUBITAK Regionals Second Place (2020) WRO International Tournament (2017) First Lego League Best Programmer Award (2017-2018) National WRO Tournament 2nd place (2018)  Certificates  Introduction to Artificial Intelligence with Python (HarvardX) Introduction to Computer Science and Programming Using Python (MITx) Data Structures and Software Design (PennX) Statistical Thinking for Data Science and Analytics (ColumbiaX)  </description>
-      <content>&lt;h3 id=&#34;awards&#34;&gt;Awards&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;TUBITAK Regionals Second Place (2020)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2807-wro-dunya-robot-olimpiyatlari-nda-dunya-1-ligini-ulkemize-kazandirdik&#34;&gt;WRO International Tournament (2017)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2329-first-lego-league-de-en-iyi-programlama-ve-yenilikci-cozum-odulleri-ted-ankara-koleji-nin&#34;&gt;First Lego League Best Programmer Award (2017-2018)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2718-dunya-robot-olimpiyatlari-nda-turkiye-yi-temsil-edecegiz&#34;&gt;National WRO Tournament 2nd place (2018)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;certificates&#34;&gt;Certificates&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cs50.harvard.edu/certificates/6a424e94-390b-453f-b802-2cbba0cd22fe&#34;&gt;Introduction to Artificial Intelligence with Python (HarvardX)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://courses.edx.org/certificates/7c99af73bf444a67a70eb1853e06092f&#34;&gt;Introduction to Computer Science and Programming Using Python (MITx)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://courses.edx.org/certificates/25eaaab3a06440999b3af955b67b217e&#34;&gt;Data Structures and Software Design (PennX)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://courses.edx.org/certificates/fc89b8f716314d37937bcc3f27ef3205&#34;&gt;Statistical Thinking for Data Science and Analytics (ColumbiaX)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>$ ls projects/</title>
-      <link>http://fr1nge.xyz/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fr1nge.xyz/projects/</guid>
-      <description>Metis: Metis is a web application that allows medical clinic owners to easily manage their appointments and their patients. It is primarily designed for use in Turkey, with several specific features. It is developed on the Spring Boot framework and uses MySQL and Redis as its data and session storage. Hermes: Hermes is an open source E-Mail tracking solution that is written in Go. KulYutmaz: A project developed for the regional TUBITAK competition&amp;rsquo;s programming field thart aims to create a more advanced phishing e-mail detection algorithm using website content checking and a neural network that we have trained.</description>
-      <content>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theFr1nge/Metis/&#34;&gt;Metis&lt;/a&gt;: Metis is a web application that allows medical clinic owners to easily manage their appointments and their patients. It is primarily designed for use in Turkey, with several specific features. It is developed on the Spring Boot framework and uses MySQL and Redis as its data and session storage.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theFr1nge/Hermes/&#34;&gt;Hermes&lt;/a&gt;: Hermes is an open source E-Mail tracking solution that is written in Go.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theFr1nge/KulYutmaz/&#34;&gt;KulYutmaz&lt;/a&gt;: A project developed for the regional TUBITAK competition&amp;rsquo;s programming field thart aims to create a more advanced phishing e-mail detection algorithm using website content checking and a neural network that we have trained.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theFr1nge/MyCity/&#34;&gt;Citizen View&lt;/a&gt;: A system that we developed for the WRO Friendship Tournament 2019 that detects defects on the road and does live traffic management.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theFr1nge/WRO_QR&#34;&gt;Food Cloud&lt;/a&gt;: A project that we developed for the WRO Tournament 2018 that came in first place. It is a system that ensures food safety.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theFr1nge/dotfiles/&#34;&gt;Dotfiles&lt;/a&gt;: I released my dotfiles due to heavy request from my friends. Hope you have a great time using them :D&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://siberogretmen.com&#34;&gt;Siber Ogretmen&lt;/a&gt;: An SSH based game that teaches linux commands &amp;amp; an online blog that aims to teach  basics about Linux and Cyber Security.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>$ whoami</title>
-      <link>http://fr1nge.xyz/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fr1nge.xyz/about/</guid>
-      <description>I am a senior student in Ted Ankara College Foundation High School. I dabble in different areas of computer science every now and then and try to learn new stuff along the way. I love creating software for my personal use and for people around me.
- Interests: Quantum Computing, Cybersecurity, Linux, Self-Hosting Skills: Spring Boot, Linux, VueJS Languages: Python, JavaScript, Java, C, Bash, LaTeX  Follow Me  GitHub Twitter LinkedIn RSS  Contact Me  Telegram Discord Email I also have a gpg key  Want to learn more?</description>
-      <content>&lt;p&gt;I am a senior student in Ted Ankara College Foundation High School. I dabble in
-different areas of computer science every now and then and try to learn new stuff
-along the way. I love creating software for my personal use and for people around
-me.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Interests:&lt;/strong&gt; Quantum Computing, Cybersecurity, Linux, Self-Hosting&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Skills:&lt;/strong&gt; Spring Boot, Linux, VueJS&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Python, JavaScript, Java, C, Bash, LaTeX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;follow-me&#34;&gt;Follow Me&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/theFr1nge&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/theFr1nge&#34;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/yigitcolakoglu/&#34;&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fr1nge.xyz/index.xml&#34;&gt;&lt;strong&gt;RSS&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://t.me/thefr1nge&#34;&gt;&lt;strong&gt;Telegram&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://discordapp.com/users/440823026523832322&#34;&gt;&lt;strong&gt;Discord&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;mail:yigitcolakoglu@hotmail.com&#34;&gt;&lt;strong&gt;Email&lt;/strong&gt;&lt;/a&gt; &lt;a href=&#34;http://fr1nge.xyz/misc/9D26FDA9E051205C4DC8422611D306C40EAEC301.asc&#34;&gt;&lt;em&gt;I also have a gpg key&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;want-to-learn-more&#34;&gt;Want to learn more?&lt;/h4&gt;
-&lt;p&gt;You can find my resume &lt;a href=&#34;http://fr1nge.xyz/misc/resume.pdf&#34;&gt;&lt;em&gt;right here&lt;/em&gt;&lt;/a&gt;. Or you can
-hit me up through social media, I am open to chat :)&lt;/p&gt;
 </content>
     </item>
     

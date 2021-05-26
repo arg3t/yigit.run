@@ -3,7 +3,7 @@ title = "Supercharge Your Bash Scripts with Multiprocessing"
 date = "2021-05-05T17:08:12+03:00"
 author = "Yigit Colakoglu"
 authorTwitter = "theFr1nge"
-cover = ""
+cover = "images/supercharge-your-bash-scripts-with-multiprocessing.png"
 tags = ["bash", "scripting", "programming"]
 keywords = ["bash", "scripting"]
 description = "Bash is a great tool for automating tasks and improving you work flow. However, it is ***SLOW***. Adding multiprocessing to the scripts you write can improve the performance greatly."
@@ -35,7 +35,7 @@ process you ran the command on, if you change a variable that the command in the
 background uses while it runs, it will not be affected.  Here is a simple
 example:
 
-```bash
+{{< code language="bash" id="1" expand="Show" collapse="Hide" isCollapsed="false" >}}
 foo="yeet"
 
 function run_in_background(){
@@ -47,7 +47,7 @@ run_in_background & # Spawn the function run_in_background in the background
 foo="YEET"
 echo "The value of foo changed to $foo."
 wait # wait for the background process to finish
-```
+{{< /code >}}
 
 This should output:
 
@@ -67,14 +67,14 @@ efficient route first before moving on to the big boy implementation. Let's open
 First of all, let's write a very simple function that allows us to easily test
 our implementation:
 
-```bash
+{{< code language="bash" id="1" expand="Show" collapse="Hide" isCollapsed="false" >}}
 function tester(){
   # A function that takes an int as a parameter and sleeps
   echo "$1"
   sleep "$1"
   echo "ENDED $1"
 }
-```
+{{< /code >}}
 
 Now that we have something to run in our processes, we now need to spawn several
 of them in controlled manner. Controlled being the keyword here. That's because
@@ -82,7 +82,7 @@ each system has a maximum number of processes that can be spawned (You can find
 that out with the command `ulimit -u`). In our case, we want to limit the
 processes being ran to the variable `num_processes`. Here is the implementation:
 
-```bash
+{{< code language="bash" id="1" expand="Show" collapse="Hide" isCollapsed="false" >}}
 num_processes=$1
 pcount=0
 for i in {1..10}; do
@@ -90,7 +90,7 @@ for i in {1..10}; do
   ((pcount++==0)) && wait
   tester $i &
 done
-```
+{{< /code >}}
 
 What this loop does is that it takes the number of processes you would like to
 spawn as an argument and runs `tester` in that many processes. Go ahead and test it out!
@@ -113,7 +113,8 @@ continuously pick up jobs from the job pool not waiting for any other process to
 Here is the implementation that uses job pools. Brace yourselves, because it is
 kind of complicated.
 
-```bash
+
+{{< code language="bash" id="1" expand="Show" collapse="Hide" isCollapsed="false" >}}
 job_pool_end_of_jobs="NO_JOB_LEFT"
 job_pool_job_queue=/tmp/job_pool_job_queue_$$
 job_pool_progress=/tmp/job_pool_progress_$$
@@ -203,7 +204,7 @@ function job_pool_wait()
         job_pool_stop_workers
         job_pool_start_workers ${job_pool_job_queue}
 }
-```
+{{< /code >}}
 
 Ok... But that the actual fuck is going in here???
 
@@ -219,7 +220,6 @@ their purposes, shall we?
 fifo's man page tells us that:
 
 ```
-
 NAME
        fifo - first-in first-out special file, named pipe
 
@@ -233,7 +233,7 @@ DESCRIPTION
        that processes can access the pipe using a name in the filesystem.
 ```
 
-So put in **very** simple terms, a fifo is a named pipe that can allows
+So put in **very** simple terms, a fifo is a named pipe that allows
 communication between processes. Using a fifo allows us to loop through the jobs
 in the pool without having to delete them manually, because once we read them
 with `read cmd args < ${job_queue}`, the job is out of the pipe and the next
@@ -285,7 +285,8 @@ inside an existing bash script. Whatever tickles your fancy. I have also
 provided an example that replicates our first implementation. Just paste the
 below code under our "chad" job pool script.
 
-```bash
+
+{{< code language="bash" id="1" expand="Show" collapse="Hide" isCollapsed="false" >}}
 function tester(){
   # A function that takes an int as a parameter and sleeps
   echo "$1"
@@ -302,7 +303,7 @@ done
 
 job_pool_wait
 job_pool_shutdown
-```
+{{< /code >}}
 
 Hopefully this article was(or will be) helpful to you. From now on, you don't
 ever have to write single threaded bash scripts like normies :)
