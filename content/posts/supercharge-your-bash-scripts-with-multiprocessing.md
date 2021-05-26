@@ -6,12 +6,12 @@ authorTwitter = "theFr1nge"
 cover = "images/supercharge-your-bash-scripts-with-multiprocessing.png"
 tags = ["bash", "scripting", "programming"]
 keywords = ["bash", "scripting"]
-description = "Bash is a great tool for automating tasks and improving you work flow. However, it is ***SLOW***. Adding multiprocessing to the scripts you write can improve the performance greatly."
+description = "Bash is a great tool for automating tasks and improving your work flow. However, it is SLOW. Adding multiprocessing to the scripts you write can improve the performance greatly."
 showFullContent = false
 draft=false
 +++
 
-Bash is a great tool for automating tasks and improving you work flow. However,
+Bash is a great tool for automating tasks and improving your work flow. However,
 it is ***SLOW***.  Adding multiprocessing to the scripts you write can improve
 the performance greatly.
 
