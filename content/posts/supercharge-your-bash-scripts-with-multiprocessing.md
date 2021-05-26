@@ -6,12 +6,12 @@ authorTwitter = "theFr1nge"
 cover = ""
 tags = ["bash", "scripting", "programming"]
 keywords = ["bash", "scripting"]
-description = "Bash is a great tool for automating tasks and improving you workflow. However, it is ***SLOW***. Adding multiprocessing to the scripts you write can improve the performance greatly."
+description = "Bash is a great tool for automating tasks and improving you work flow. However, it is ***SLOW***. Adding multiprocessing to the scripts you write can improve the performance greatly."
 showFullContent = false
 draft=false
 +++
 
-Bash is a great tool for automating tasks and improving you workflow. However,
+Bash is a great tool for automating tasks and improving you work flow. However,
 it is ***SLOW***.  Adding multiprocessing to the scripts you write can improve
 the performance greatly.
 
@@ -211,12 +211,12 @@ Ok... But that the actual fuck is going in here???
 
 In order to understand what this code is doing, you first need to understand two
 key commands that we are using, `fifo` and `flock`. Despite their complicated
-names, they are actually quite simple. Let's check their manpages to figure out
+names, they are actually quite simple. Let's check their man pages to figure out
 their purposes, shall we?
 
 #### man fifo
 
-fifo's manpage tells us that:
+fifo's man page tells us that:
 
 ```
 
@@ -244,7 +244,7 @@ to using `flock`.
 
 #### man flock
 
-flock's manpage defines it as:
+flock's man page defines it as:
 
 ```
  SYNOPSIS
@@ -267,7 +267,7 @@ flock's manpage defines it as:
         the examples below for how that can be used.
 ```
 
-Cool, translated to modern english that us regular folks use, `flock` is a thin
+Cool, translated to modern English that us regular folks use, `flock` is a thin
 wrapper around the C standard function `flock` (see `man 2 flock` if you are
 interested). It is used to manage locks and has several forms. The one we are
 interested in is the third one. According to the man page, it uses and open file
