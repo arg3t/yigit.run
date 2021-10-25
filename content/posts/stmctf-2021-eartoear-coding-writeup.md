@@ -10,6 +10,8 @@ description = "The writeup to the Ear to Ear coding challenge on STM CTF 2021"
 showFullContent = false
 +++
 
+The writeup to the Ear to Ear coding challenge on STM CTF 2021  
+
 For the challenge, we are given a web server that provides the json data:
 
 ```json
