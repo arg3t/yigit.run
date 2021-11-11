@@ -15,6 +15,7 @@ pipeline:
     port: 3471
     target: /var/www/html/fr1nge.xyz
     source: public/*
+    delete: true
     key:
       from_secret: rsync_key
     user: root
