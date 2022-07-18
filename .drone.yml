@@ -2,7 +2,7 @@ pipeline:
   build:
     image: plugins/hugo
     validate: false
-    url: https://fr1nge.xyz
+    url: https://yigit.run
   compress:
     image: alpine:latest
     commands:
@@ -13,7 +13,7 @@ pipeline:
     image: drillster/drone-rsync
     hosts: [ "192.168.1.5" ]
     port: 3471
-    target: /var/www/html/fr1nge.xyz
+    target: /var/www/html/yigit.run
     source: public/*
     delete: true
     key:

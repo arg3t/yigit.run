@@ -1,9 +1,9 @@
-baseURL = "http://fr1nge.xyz/"
+baseURL = "https://yigit.run/"
 languageCode = "en-us"
 theme = "terminal"
 googleAnalytics = "G-JXGYSDK9HK"
 disqusShortname = "fr1nge-xyz"
-title = "Fr1nge's Personal Blog"
+title = "Yigit's Personal Blog"
 
 [params]
   contentTypeName = "posts"
@@ -23,7 +23,7 @@ title = "Fr1nge's Personal Blog"
   enableGitInfo = true
 
 [params.twitter]
-  creator = "theFr1nge"
+  creator = "yigitclkl"
   site = "yigitcolakoglu.com"
 
 [languages]
@@ -43,7 +43,7 @@ title = "Fr1nge's Personal Blog"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "fr1nge.xyz"
+      logoText = "yigit.run"
       logoHomeLink = "/"
 
     [languages.en.menu]
