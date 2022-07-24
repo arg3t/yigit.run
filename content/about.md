@@ -16,7 +16,7 @@ me.
 #### Follow Me
 
 * [**GitHub**](https://github.com/theFr1nge)
-* [**Twitter**](https://twitter.com/theFr1nge)
+* [**Twitter**](https://twitter.com/yigitclkl)
 * [**LinkedIn**](https://www.linkedin.com/in/yigitcolakoglu/)
 * [**RSS**](/index.xml)
 
