@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # This specifies that the workflow will run on pushes to the `main` branch.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build site
+        run: hugo
+        env:
+          HUGO_BASEURL: https://yigit.run
+
+      - name: Install dependencies for compression
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y make
+
+      - name: Compress site using Makefile
+        run: make -C public/ -f ../Makefile
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
