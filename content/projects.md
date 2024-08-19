@@ -11,5 +11,3 @@ draft = false
 * [Food Cloud](https://github.com/theFr1nge/WRO_QR): A project that we developed for the WRO Tournament 2018 that came in first place. It is a system that ensures food safety.
 * [Dotfiles](https://github.com/theFr1nge/dotfiles/): I released my dotfiles due to heavy request from my friends. Hope you have a great time using them :D
 * [Siber Ogretmen](https://siberogretmen.com): An SSH based game that teaches linux commands &amp; an online blog that aims to teach  basics about Linux and Cyber Security.
-
-

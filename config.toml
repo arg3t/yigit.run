@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "terminal"
 googleAnalytics = "G-JXGYSDK9HK"
 disqusShortname = "fr1nge-xyz"
-title = "Yigit's Personal Blog"
+title = "Yeet's Personal Blog"
 
 [params]
   contentTypeName = "posts"
@@ -23,14 +23,14 @@ title = "Yigit's Personal Blog"
   enableGitInfo = true
 
 [params.twitter]
-  creator = "yigitclkl"
+  creator = "arg3t"
   site = "yigitcolakoglu.com"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Fr1nge's Personal Blog"
-    subtitle = "Yigit Colakoglu aka. Fr1nge's Personal Blog"
+    title = "Yeet's Personal Blog"
+    subtitle = "Yigit Colakoglu aka. yeet's Personal Blog"
     owner = "Yigit Colakoglu"
     keywords = "Tech, Linux, Programming, Security"
     copyright = "Yigit Colakoglu"
@@ -55,7 +55,3 @@ title = "Yigit's Personal Blog"
         identifier = "projects"
         name = "Projects"
         url = "/projects"
-      [[languages.en.menu.main]]
-        identifier = "awards"
-        name = "Awards & Certificates"
-        url = "/awards"
